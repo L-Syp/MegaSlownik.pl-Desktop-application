@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SavedRegex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FindPattern>&lt;div id="word2"&gt;.*?&lt;!-- google_ad_section_end --&gt;</FindPattern>
+  <ReplacePattern>protocol: '${protocol}'
+domain:   '${domain}'
+path:     '${path}'
+</ReplacePattern>
+  <Options>IgnoreCase Singleline</Options>
+</SavedRegex>
